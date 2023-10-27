@@ -1,0 +1,45 @@
+.Counter {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .Controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Button {
+    background-color: #ae00ff;
+    color: #fff;
+    border: none;
+    border-radius: 30%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .Number {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .Button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .Button-agregar {
+    background-color: #ff00bf;
+    margin-top: 10px; /* Agrega margen superior solo al botón "Agregar al carrito" */
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
